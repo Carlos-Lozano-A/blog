@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: justify;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+    text-align: center;
+    padding: 10px 0;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    color: #777;
+}
+article {
+    margin: 20px 0;
+}
+
+/*menu*/
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Cambia el layout a horizontal */
+    justify-content: center; /* Centra el menú */
+}
+
+.menu li {
+    margin-right: 15px; /* Espacio entre botones */
+}
+
+.menu a {
+    display: inline-block; /* Necesario para aplicar padding y bordes como botón */
+    padding: 10px 20px; /* Espaciado dentro del botón */
+    text-decoration: none;
+    color: white; /* Color del texto */
+    background-color: #007BFF; /* Color de fondo del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+.menu a:hover {
+    background-color: #96bce4; /* Cambio de color al pasar el mouse */
+    text-decoration: none; /* Asegura que no se subraye al hacer hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    color: #777;
+}
